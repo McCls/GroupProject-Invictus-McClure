@@ -17,7 +17,7 @@ Download image writer for Windows (see link) (or if you have a tool you prefer t
 Use that to write the latest debian image (2015-03-01) that you have downloaded from http://beagleboard.org/latest-images to the blank SD card.
 Eject the SD card once the writing is finished
 Put the SD card into the SD card slot on the (powered down) beaglebone black
-Hold down the user boot button on the beaglebone black and plug in the USB cable for power. See figure 17 in the BBB_SRM pdf for the location of this button (called â€œboot switchâ€� in that document).
+Hold down the user boot button on the beaglebone black and plug in the USB cable for power. See figure 17 in the BBB_SRM pdf for the location of this button (called `boot switch` in that document).
 After a few seconds you should be able to release the switch. Check (either via HDMI on a monitor or over the network over usb) that the beaglebone is now running. 
 The default IP for the beaglebone black on network over USB is 192.168.7.2 and the default login is debian (password is temppwd)
 
