@@ -17,7 +17,7 @@ Download image writer for Windows (see link) (or if you have a tool you prefer t
 Use that to write the latest debian image (2015-03-01) that you have downloaded from http://beagleboard.org/latest-images to the blank SD card.
 Eject the SD card once the writing is finished
 Put the SD card into the SD card slot on the (powered down) beaglebone black
-Hold down the user boot button on the beaglebone black and plug in the USB cable for power. See figure 17 in the BBB_SRM pdf for the location of this button (called “boot switch” in that document).
+Hold down the user boot button on the beaglebone black and plug in the USB cable for power. See figure 17 in the BBB_SRM pdf for the location of this button (called â€œboot switchâ€� in that document).
 After a few seconds you should be able to release the switch. Check (either via HDMI on a monitor or over the network over usb) that the beaglebone is now running. 
 The default IP for the beaglebone black on network over USB is 192.168.7.2 and the default login is debian (password is temppwd)
 
@@ -36,7 +36,8 @@ Be sure to match whatever architecture cpu your computer uses for both the virtu
 
 
 ## Step 4: Downloading eclipse and setting up that workspace. 
-### Also connecting to the beaglebone black through eclipse (eclipse installed on the debian jessie virtualbox image that was just created). Use whatever version of Eclipse you want, but I use Mars (luna is the one in the video since it is a little old).
+### Also connecting to the beaglebone black through eclipse (eclipse installed on the debian jessie virtualbox image that was just created). 
+Use whatever version of Eclipse you want, but I use Mars (luna is the one in the video since it is a little old).
 	https://youtu.be/T9yFyWsyyGk?t=15m25s
 
 The video is a great walkthrough of setting up cross compilation, installing eclipse, and connecting to the beaglebone. We will not be cross compiling so no need to watch the first part of the video. The code will live on the beaglebone and we will access/edit/compile it remotely through eclipse
