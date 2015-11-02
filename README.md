@@ -47,3 +47,24 @@ After this the only things left are to install specific libraries (like OpenCV a
 If you notice that your debian jessie virtualbox is a fixed resolution (and want to make it fullscreen bordered/borderless) you need to install the addons. 
 http://virtualboxes.org/doc/installing-guest-additions-on-debian/
 step 6 is referring to the debian image you downloaded (that menu is a virtualbox, not debian, menu).
+
+##Libraries to install (Last updated 11-1-2015 DCA)
+
+sudo apt-get install update
+
+sudo apt-get install upgrade
+
+sudo apt-get install build-essential
+
+sudo apt-get install pkg-config
+
+sudo apt-get install cmake
+
+sudo apt-get install libopencv-dev
+
+sudo reboot now
+
+
+
+
+Should be all the basics needed to get starting. Using g++ as compiler. 
